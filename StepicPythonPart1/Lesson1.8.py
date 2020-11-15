@@ -1,0 +1,15 @@
+X = int(input())
+Y = int(input())
+print(X*60 + Y)
+
+print()
+X = int(input())
+print(X // 60)
+print(X % 60)
+
+print()
+X = int(input())
+H = int(input())
+M = int(input())
+print((H + X // 60) + (M + X % 60) // 60)
+print((M + X) % 60)
